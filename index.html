@@ -1,15 +1,190 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menampilkan Gambar</title>
+    <title>Landing Page - Cover Super</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        .header {
+            position: fixed;
+            background-color: #ff0000;
+            color: white;
+            text-align: center;
+            padding: 10px 20px ;
+            width: 100%;
+        }
+        .main-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .main-section img {
+            max-width: 100%;
+            height: auto;
+        }
+        .features {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            margin: 10px 0;
+        }
+        .media-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .media-logos img {
+            max-width: 150px;
+            margin: 10px;
+        }
+        .comparison {
+            padding: 20px;
+            background-color: #f9f9f8;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .comparison-table th {
+            background-color: #ff0000;
+            color: white;
+        }
+        .features-section {
+            padding: 20px;
+            background-color: #ffffff;
+            text-align: center;
+        }
+        .features-section img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .testimonial {
+            margin: 10px;
+            max-width: 300px;
+            text-align: center;
+        }
+        .cta-section {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+        }
+        .cta-section input {
+            padding: 10px;
+            margin: 10px 0;
+            width: 80%;
+            max-width: 400px;
+        }
+        .cta-section button {
+            padding: 10px 20px;
+            background-color: #ff0000;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #eeeeee;
+        }
+    </style>
 </head>
 <body>
 
-    <img src="cs.jpg" alt="Deskripsi Gambar" width="100%">
-    <img src="cs.jpg" alt="Deskripsi Gambar" width="100%">
-    <img src="cs.jpg" alt="Deskripsi Gambar" width="100%">
-    <img src="cs.jpg" alt="Deskripsi Gambar" width="100%">
+    <div class="header">
+        <p>Selamat Datang di Welltech.id Tempat Belanja Terbaik</p>
+    </div>
+
+    <div class="main-section">
+        <img src="HOME.jpg" alt="Cover Super">
+        <h1>Solusi Untuk Product Terbaik Kami <br>(Bisa Rugi Ratusan Jutaan) Akibat Kabel Mobil Bermasalah</h1>
+        <ul class="features">
+            <li>500.++ pelanggan puas</li>
+            <li>100% Anti Tikus dan Bahan Tebal</li>
+            <li>5x lebih awet daripada merk lain</li>
+            
+        </ul>
+        <p>
+            <br>Dipercaya Dapat Menghindari Dari Tikus" Nakal 
+        </p>
+    </div>
+
+    <div class="media-section">
+        <h2>Cover Anti Tikus by Welltech.id</h2>
+        <div>
+            <img src="G1.jpg" alt="test product 1">
+            <img src="G2.jpg" alt="test product 2">
+           
+
+            <!-- Add more logos as necessary -->
+        </div>
+    </div>
+
+    <div class="comparison">
+        <h2>CoverAntiTikus vs Brand Lainnya</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>CoverAntiTikus</th>
+                    <th>Brand Lain</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Material khusus untuk perlindungan mobil</td>
+                    <td>Material standar</td>
+                </tr>
+                <tr>
+                    <td>Ketahanan hingga 2 tahun</td>
+                    <td>Ketahanan kurang dari 1 tahun</td>
+                </tr>
+                <tr>
+                    <td>100% Anti Tikus dan Bahan Tebal</td>
+                    <td>Susah dibersihkan</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="features-section">
+        <h1>Cara penggunaan</h1>
+        <!--<h2>Fitur-fitur Unggulan CoverSuper Xtreme Outdoor</h2>-->
+        <alt="Perlindungan 3-Layer">
+        <img src="Tutorial.jpg" alt="test product 2">
+        <p>Perlindungan Anti Tikus maksimal untuk segala cuaca.</p>
+        <p>Material yang awet dan tahan lama.</p>
+    </div>
+
+    <div class="cta-section">
+        <h2>Yuk, Dapatkan Perlindungan Anti Tikus Terbaik Untuk Mobil Anda!</h2>
+        <input type="text" placeholder="Masukkan Merk dan Tipe Mobil Anda">
+        <br>
+        <button href="https://wa.me/081398538676" target="_blank">Ambil Promo di WhatsApp</button>
+    </div>
+
+    <div class="footer">
+        <p>CoverSuper Pilihan 500++ Pelanggan Puas</p>
+        
+    </div>
+
 </body>
 </html>
